@@ -1,0 +1,6 @@
+﻿selenium
+psutil
+requests
+keyboard
+pyperclip
+python-dotenv
