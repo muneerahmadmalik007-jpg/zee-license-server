@@ -13,25 +13,6 @@
     "ADMIN_PASSWORD": "Zahid9244",
     "LICENSE_SECRET_KEY": "ZeeSoftHub_License_2024_Premium_Automation"
   },
-  "headers": [
-    {
-      "source": "/api/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET,POST,PUT,DELETE,OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type,Authorization"
-        }
-      ]
-    }
-  ],
   "routes": [
     {
       "src": "/api/(.*)",
