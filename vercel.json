@@ -1,12 +1,6 @@
 {
   "version": 2,
   "buildCommand": "pip install -r requirements.txt",
-  "functions": {
-    "api/index.py": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  },
   "env": {
     "TURSO_DB_URL": "libsql://zee-licenses-mychannelmanageraccess-netizen.aws-ap-south-1.turso.io",
     "TURSO_AUTH_TOKEN": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3NjgyMjcyNjQsImlkIjoiZTgyMTA5ZjgtMWU1Ni00NmVhLWFhZmMtNDhiYzMyZjNkYjgwIiwicmlkIjoiMmNhOGEwMzQtYjYwNy00MWQ2LWJjMTItZDNiNzAzMzhiNzkyIn0.aBgFusPuY9ze46PGzcNQJOxrhT47Zcwz-PG8xTFelic-KB34VzzNSEV6MvjzyB4qjA-ZH8LQTpg8e4IPJlwxBw",
